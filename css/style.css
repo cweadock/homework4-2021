@@ -30,28 +30,35 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  font-family: 'Andika', sans-serif;
 
   /*Req 1*/
 }
 
 h1{
   color: #c12258;
-  font-size: 2em;
-
+  font-size: 32px;
+  text-align: center;
+  line-height: 2;
   /*Req 2*/
 }
 
 p{
-  
+  padding-top: 15px;
 }
 
 a{
-  
+  font-size: 16px;
+  color: #C12258;
+  text-decoration-style: wavy;
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-
+*:focus{
+  border-style: dashed;
+  border-color: #417243;
+}
 
 
 td{
@@ -86,4 +93,5 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;  
 }
