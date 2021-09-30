@@ -32,6 +32,7 @@ body{
   background-position: center;
   font-family: 'Andika', sans-serif;
   background-image: url(../images/pigeon-background.JPEG);
+  background-repeat: no-repeat;
 
   /*Req 1*/
 }
@@ -46,6 +47,7 @@ h1{
 
 p{
   padding-top: 15px;
+  color: black;
 }
 
 a{
@@ -76,6 +78,7 @@ td{
   min-width: 125px;
   padding: 10px 10px 10px 10px;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   background-color: #7e0825;
   /* border-radius: 50px 0px 0px 0px; */
@@ -91,6 +94,7 @@ td{
   /*border on top and right only*/
   border-top: 2px solid black;
   border-right: 2px solid black;
+  vertical-align: middle;
 }
 
 tr:nth-child(even){
@@ -139,11 +143,17 @@ tbody tr:hover{
 /*Add selectors and rules here*/
 
 
-
+footer p{
+  color: white;
+}
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
+  margin: 0 !important;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
